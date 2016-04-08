@@ -1,0 +1,16 @@
+#! /usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var program = require('commander');
+var main = require('../index');
+
+program
+    .option('-t, --type [type]', '类型')
+    .option('-s, --src [src]', '源文件')
+    .option('-d, --dist [dist]', '目标文件')
+    .parse(process.argv);
+
+if (program.type == 'fis') {
+    main.fis2commonjs(program.src, program.dist);
+}

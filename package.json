@@ -1,0 +1,31 @@
+{
+  "name": "convert2commonjs",
+  "version": "1.0.0",
+  "description": "convert file to commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fis-kernel": "^2.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quyatong/convert2commonjs.git"
+  },
+  "bin": {
+    "convert2commonjs": "./bin/cli"
+  },
+  "keywords": [
+    "commonjs",
+    "fis"
+  ],
+  "author": "quyatong@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quyatong/convert2commonjs/issues"
+  },
+  "homepage": "https://github.com/quyatong/convert2commonjs#readme"
+}
